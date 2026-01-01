@@ -6,12 +6,16 @@ import CustomerPage from './pages/customer/CustomerPage';
 import ProductPage from './pages/product/ProductPage';
 import UserPage from './pages/user/UserPage';
 import CategoryPage from './pages/category/CategoryPage';
-import NotFoundPage from './pages/notfound/NotFoundPage';
+import NotFoundPage from './pages/404/NotFoundPage';
+import Layout from './components/layout/Layout';
 
 function App() {
 
   return (
     <BrowserRouter>
+
+      <Layout />
+
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />

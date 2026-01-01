@@ -1,0 +1,41 @@
+
+
+.mainHeader {
+    background-color: red;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brandContain {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.txtBrand {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.subBrand {
+    font-size: 12px;
+    color: grey;
+}
+
+/* Start Styling The Menu Bar  */
+.menu {
+    list-style-type: none;
+    display: flex;
+    text-decoration: none;
+}
+
+.menu .menuItem {
+    padding: 10px;
+    /* background-color: yellow; */
+}
+
+.menu .menuItem:hover {
+    background-color: blue;
+    cursor: pointer;
+}
